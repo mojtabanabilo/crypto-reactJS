@@ -1,0 +1,80 @@
+header{
+    width: 100vw;
+    height: 110px;
+    background: #263859;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    position: fixed;
+    z-index: 2;
+}
+header .section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+header .section-1 img{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+header .section-1 h2{
+    margin: 0 0 0 20px;
+}
+header .section-2{
+    position: relative;
+}
+header .section-2 img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+}
+header .section-2 input{
+    width: 360px;
+    height: 35px;
+    border-bottom-left-radius: 7px;
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 0 40px;
+    font-size: 1rem;
+    border-right: none;
+    border-top: none;
+}
+header .section-2 input::placeholder{
+    color: rgba(255, 255, 255, 0.753);
+    letter-spacing: 2.5px;
+    transition: all .5s;
+}
+header .section-2 input:focus{
+    outline: none;
+}
+header .section-2 input:focus::placeholder{
+    color: #00ffff;
+    letter-spacing: 4px;
+    transition: all .5s;
+}
+header .section-2 button{
+    width: 150px;
+    height: 35px;
+    background: none;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-bottom-right-radius: 7px;
+    border: solid 2px #fff;
+    border-left: none;
+    border-top: none;
+    cursor: pointer;
+    transition: all .3s;
+    padding: 0 0 0 50px;
+}
+header .section-2 button:hover{
+    letter-spacing: 3px;
+    color: #00ffff;
+    transition: all .3s;
+}

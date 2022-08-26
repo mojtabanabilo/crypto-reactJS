@@ -1,0 +1,142 @@
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/loginBackGround.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login{
+    position: relative;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12%;
+}
+.login h1{
+    transition: all .3s;
+    margin: 0 0 20px 0;
+}
+.login h1:hover{
+    letter-spacing: 1.5px;
+    color: #00ffff;
+    cursor: default;
+}
+.login input{
+    background: none;
+    border: 1.5px solid #fff;
+    width: 30vw;
+    height: 40px;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    padding-left: 20px;
+    color: #fff;
+}
+.login input:focus{
+    outline: none;
+}
+.login input:valid ~ label,
+.login input:focus ~ label{
+    color: #00ffff;
+    transform: translateX(10px);
+    transform: translateY(-20px);
+    font-size: .9rem;
+    width: 75px;
+    background: rgb(8, 16, 41);
+    transition: all .5s;
+    padding: 0 8px;
+}
+.login label{
+    letter-spacing: 1px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+.login .label-1{
+    position: absolute;
+    top: 31.5%;
+    left: 5%;
+}
+.login .label-2{
+    position: absolute;
+    top: 58.5%;
+    left: 5%;
+}
+.login button{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    border: 1.5px solid #fff;
+    border-radius: 7px;
+    background: none;
+    font-size: 1rem;
+    transition: all .3s;
+    margin: 20px 0 0 0;
+}
+.login button:hover{
+    letter-spacing: 2px;
+    border-left: none;
+    border-right: none;
+    transition: all .3s;
+    color: #00ffff;
+    border-top: 3.5px solid #00ffff;
+    border-bottom: 3.5px solid #00ffff;
+}
+.guide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0000006b;
+    width: 50vw;
+    height: 70vh;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.guide h1{
+    position: absolute;
+    top: 19%;
+    color: #00ffff;
+}
+.guide ul{
+    position: absolute;
+    top: 30%;
+    text-align: justify;
+    margin: 20px 30px;
+    list-style: georgian;
+}
+.guide ul li{
+    margin: 20px 0;
+    font-size: 1.1rem;
+    color: #eef1ff;
+}
+.userError{
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff5f5f;
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+.passError{
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff5f5f;
+    position: absolute;
+    left: 60%;
+    top: 66%;
+}

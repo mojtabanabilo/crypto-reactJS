@@ -1,0 +1,14 @@
+section{
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+}
+section .cover{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/yeshi-kangrang-wTD1-_u8x1g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    filter: saturate(1.8);
+}

@@ -1,0 +1,58 @@
+footer{
+    width: 100vw;
+    height: 250px;
+    background: #263859;
+    margin-top: 40px;
+    position: relative;
+    padding-top: 50px;
+}
+footer .icons{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer .icons .bIcon{
+    width: 40px;
+    height: 40px;
+    background: #1d1d1d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .icons .bIcon img{
+    transition: all .5s;
+}
+footer .icons .bIcon img:hover{
+    transform: rotateY(180deg);
+    transition: all .5s;
+}
+footer .p1, 
+footer .p2{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer .p1{
+    position: absolute;
+    top: 47%;
+}
+footer .p2{
+    position: absolute;
+    top: 65%;
+}
+footer .p1 a, 
+footer .p2 a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

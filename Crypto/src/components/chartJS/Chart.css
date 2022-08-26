@@ -1,0 +1,97 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* height: 1000px; */
+}
+.main .container{
+    width: 80vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background: #222831d0;
+    border-radius: 10px;
+    margin-right: auto;
+}
+.main .container h1{
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    transform: translate(-50%, -6%);
+    color: #fff;
+    text-shadow: 0px 2px 5px #000;
+}
+.main .container .barChart{
+    width: 70vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+.main .container2{
+    width: 80vw;
+    height: 450px;
+    background: #222831d0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.main .container2 .part-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .container2 .part-1 h1{
+    color: #fff;
+    text-shadow: 0px 2px 5px #000;
+}
+.main .container2 .part-1 .donutChart{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+.main .container2 .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ff6918c9;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    color: #fff;
+    animation: move infinite 2s ease-in;
+    
+}
+.main .container2 .information h2{
+    margin: 0 0 30px 0;
+}
+.main .container2 .information ul{
+    list-style-type: square;
+    margin: 0 0 30px 0;
+
+}
+.main .container2 .information li{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+@keyframes move {
+    0%{
+        background: #ff6918c9;
+    }
+    50%{
+        background: #ff691893;
+    }
+    100%{
+        background: #ff6918c9;
+    }
+}
